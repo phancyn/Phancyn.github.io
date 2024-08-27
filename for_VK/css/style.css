@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap');
+
+
+
+html {
+    background-color: black;
+}
+.img {
+    filter: drop-shadow(0px 0px 0px white);
+    position: absolute;
+    top: 4px;
+}
+.img:hover {
+    filter: drop-shadow(1px 1px 10px white);
+}
+
+.button{
+    padding: 15px 30px;
+    background-color: #050801;
+    color: white;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+    letter-spacing: 4px;
+    overflow: hidden;
+    transition: 0.5s;
+    cursor: pointer;
+    position: absolute;
+    top: 1%;
+    left: 10%;
+    text-decoration: none;
+    font-family: Verdana;
+  }
+  .button1{
+    padding: 15px 30px;
+    background-color: #050801;
+    color: white;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+    letter-spacing: 4px;
+    overflow: hidden;
+    transition: 0.5s;
+    cursor: pointer;
+    position: absolute;
+    top: 1%;
+    left: 24%;
+    text-decoration: none;
+    font-family: Verdana;
+  }
+  
+  .button:hover{
+      background: gray;
+      text-decoration: none;
+      color: #050801;
+      box-shadow: 0 0 5px #d8d8d8,
+                  0 0 25px #d8d8d8,
+                  0 0 50px #d8d8d8,
+                  0 0 200px #d8d8d8;
+       -webkit-box-reflect:below 1px linear-gradient(transparent, #0005);
+  }
+
+  .button1:hover{
+    background: gray;
+    text-decoration: none;
+    color: #050801;
+    box-shadow: 0 0 5px #d8d8d8,
+                0 0 25px #d8d8d8,
+                0 0 50px #d8d8d8,
+                0 0 200px #d8d8d8;
+     -webkit-box-reflect:below 1px linear-gradient(transparent, #0005);
+}
+
+.button2{
+    padding: 15px 30px;
+    background-color: #050801;
+    color: white;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+    letter-spacing: 4px;
+    overflow: hidden;
+    transition: 0.5s;
+    cursor: pointer;
+    position: absolute;
+    top: 1%;
+    left: 34%;
+    text-decoration: none;
+    font-family: Verdana;
+  }
+
+  .button2:hover{
+    background: gray;
+    text-decoration: none;
+    color: #050801;
+    box-shadow: 0 0 5px #d8d8d8,
+                0 0 25px #d8d8d8,
+                0 0 50px #d8d8d8,
+                0 0 200px #d8d8d8;
+     -webkit-box-reflect:below 1px linear-gradient(transparent, #0005);
+}
